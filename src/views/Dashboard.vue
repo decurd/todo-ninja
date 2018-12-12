@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="dashboard">
     
     <h1>Home</h1>
     <p class="red white--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repellat culpa facere, ipsam laboriosam inventore commodi libero quae laudantium quisquam esse cupiditate harum tempore, ullam dolor quod asperiores nisi. Consequuntur!</p>
