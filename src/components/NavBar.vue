@@ -39,9 +39,9 @@
       return {
         drawer: false,
         links: [
-          { icon: 'dashboard', text: 'DashBoard', route: '/'},
-          { icon: 'folder', text: 'My Projects', route: '/projects'},
-          { icon: 'person', text: 'Team', route: '/team'}
+          { icon: 'dashboard', text: 'Text/Button', route: '/'},
+          { icon: 'class', text: 'Slot', route: '/slot'},
+          { icon: 'aspect_ratio', text: 'Padding&Margin', route: '/paddingnmargin'}
         ]
       }
     }
