@@ -14,14 +14,19 @@ export default new Router({
       component: Dashboard
     },
     {
-      path: '/projects',
-      name: 'projects',
-      component: () => import(/* webpackChunkName: "projects" */ './views/Projects.vue')
+      path: '/paddingnmargin',
+      name: 'paddingnmargin',
+      component: () => import(/* webpackChunkName: "paddingnmargin" */ './views/PaddingnMargin.vue')
     },
     {
       path: '/team',
       name: 'team',
       component: () => import(/* webpackChunkName: "team" */ './views/Team.vue')
+    },
+    {
+      path: '/slot',
+      name: 'slot',
+      component: () => import(/* webpackChunkName: "slot" */ './views/Slot.vue')
     }
   ]
 })
