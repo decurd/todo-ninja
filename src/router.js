@@ -27,6 +27,11 @@ export default new Router({
       path: '/slot',
       name: 'slot',
       component: () => import(/* webpackChunkName: "slot" */ './views/Slot.vue')
+    },
+    {
+      path: '/grid',
+      name: 'grid',
+      component: () => import(/* webpackChunkName: "grid" */ './views/Grid.vue')
     }
   ]
 })

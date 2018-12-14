@@ -27,14 +27,19 @@
     <v-btn fab depressed dark class="purple">
       <v-icon>favorite</v-icon>
     </v-btn>
-
-    <v-btn class="hidden-md-and-down">click me</v-btn>
+    <v-btn class="hidden-md-and-down">Click me(normal)</v-btn>
+    <v-btn class="hidden-md-and-down" disabled>Click me(disabled)</v-btn>
+    <v-btn class="hidden-md-and-down" :disabled="btnState">Click me(data)</v-btn>
 
   </div>
 </template>
 
 <script>
   export default {
-    
+    data() {
+      return {
+        btnState: false
+      }
+    }
   }
 </script>
