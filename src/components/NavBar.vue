@@ -42,7 +42,7 @@
           { icon: 'dashboard', text: 'Text/Button', route: '/'},
           { icon: 'class', text: 'Slot', route: '/slot'},
           { icon: 'aspect_ratio', text: 'Padding&Margin', route: '/paddingnmargin'},
-          { icon: 'subject', text: 'Grid', route: '/grid'}
+          { icon: 'subject', text: 'Grid/Dummy Data', route: '/grid'}
         ]
       }
     }
