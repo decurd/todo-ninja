@@ -32,6 +32,16 @@ export default new Router({
       path: '/grid',
       name: 'grid',
       component: () => import(/* webpackChunkName: "grid" */ './views/Grid.vue')
+    },
+    {
+      path: '/chips',
+      name: 'chips',
+      component: () => import(/* webpackChunkName: "chips" */ './views/Chips.vue')
+    },
+    {
+      path: '/sorting',
+      name: 'sorting',
+      component: () => import(/* webpackChunkName: "sorting" */ './views/Sorting.vue')
     }
   ]
 })
