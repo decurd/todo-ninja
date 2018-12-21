@@ -44,7 +44,7 @@
           { icon: 'aspect_ratio', text: 'Padding&Margin', route: '/paddingnmargin'},
           { icon: 'subject', text: 'Grid/Dummy Data', route: '/grid'},
           { icon: 'subject', text: 'Chips', route: '/chips'},
-          { icon: 'subject', text: 'Sorting', route: '/sorting'}
+          { icon: 'subject', text: 'Sorting/Tooltip', route: '/sorting'}
         ]
       }
     }
